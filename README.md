@@ -25,9 +25,10 @@ I created a web app that allows me to pay fintech professionals to do work and g
 * from bip44 import Wallet
 * from web3 import Account
 * from web3 import middleware
+* from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 ## Proof of Transaction
-from web3.gas_strategies.time_based import medium_gas_price_strategy![Screen Shot 2022-02-18 at 3 05 27 PM](https://user-images.githubusercontent.com/85980757/154756065-b52a45eb-a388-4841-9565-7efbb354e133.png)
+![Screen Shot 2022-02-18 at 3 05 27 PM](https://user-images.githubusercontent.com/85980757/154756065-b52a45eb-a388-4841-9565-7efbb354e133.png)
 
 
 ![Screen Shot 2022-02-18 at 3 06 40 PM](https://user-images.githubusercontent.com/85980757/154756103-c53c11fe-e7a5-4abc-bac4-884b22200dd7.png)
